@@ -21,7 +21,7 @@ $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 # Inherit device configurations
 $(call inherit-product, device/sony/dogo/device.mk)
 $(call inherit-product, vendor/xosp/config/xosp.mk)
-ROOT_METHOD := magisk
+ROOT_METHOD := supersu
 
 
 # Device display
