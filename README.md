@@ -1,2 +1,2 @@
-android_device_sony_dogo
+xosp_device_sony_dogo
 ========================

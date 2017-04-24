@@ -16,17 +16,20 @@
 #
 
 # Inherit common LineageOS stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/dogo/device.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
+ROOT_METHOD := supersu
+
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifications
-PRODUCT_NAME := lineage_dogo
+PRODUCT_NAME := xosp_dogo
 PRODUCT_DEVICE := dogo
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
