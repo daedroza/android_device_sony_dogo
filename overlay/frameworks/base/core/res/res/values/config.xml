@@ -61,15 +61,15 @@
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>1</item>    <!--   0 -   3 -->
-        <item>11</item>   <!--   3 -   6 -->
-        <item>22</item>   <!--   6 -  12 -->
-        <item>38</item>   <!--  12 -  19 -->
-        <item>47</item>   <!--  19 -  25 -->
-        <item>63</item>   <!--  25 -  50 -->
-        <item>85</item>   <!--  50 - 100 -->
-        <item>94</item>   <!-- 100 - 150 -->
-        <item>110</item>  <!-- 150 - 320 -->
-        <item>126</item>  <!-- 320 - 480 -->
+        <item>3</item>    <!--   3 -   6 -->
+        <item>11</item>   <!--   6 -  12 -->
+        <item>29</item>   <!--  12 -  19 -->
+        <item>45</item>   <!--  19 -  25 -->
+        <item>60</item>   <!--  25 -  50 -->
+        <item>81</item>   <!--  50 - 100 -->
+        <item>91</item>   <!-- 100 - 150 -->
+        <item>105</item>  <!-- 150 - 320 -->
+        <item>121</item>  <!-- 320 - 480 -->
         <item>162</item>  <!-- 480 - 960 -->
         <item>196</item>  <!-- 960 - 1240 -->
         <item>250</item>  <!-- 1240 - 1520 -->
@@ -79,20 +79,20 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">17</integer>
+    <integer name="config_screenBrightnessDim">7</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">13</integer>
+    <integer name="config_screenBrightnessDoze">7</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
-    <integer name="config_screenBrightnessSettingDefault">88</integer>
+    <integer name="config_screenBrightnessSettingDefault">74</integer>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
     <!-- We don't have button backlight. -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>

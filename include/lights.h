@@ -17,4 +17,4 @@
 
 #define LCD_FILE                    "/sys/devices/i2c-0/0-0036/leds/lm3533-lcd-bl/brightness"
 #define MAX_BRIGHTNESS_FILE         "/sys/devices/i2c-0/0-0036/leds/lm3533-lcd-bl/max_brightness"
-#define LCD_BRIGHTNESS_MIN          10
+#define LCD_BRIGHTNESS_MIN          1
